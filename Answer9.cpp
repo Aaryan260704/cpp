@@ -4,8 +4,8 @@ using namespace std;
 class PrimeChecker;
 
 class Number {
-    int num;
 public:
+    int num;
     Number(int n) : num(n) {}
     
     // Declare PrimeChecker as friend class
